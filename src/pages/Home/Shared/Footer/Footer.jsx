@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer p-10 bg-base-200 text-base-content">
-        <div>
+        <div className='mx-auto max-w-7xl'>
           <img className='w-24' src={logo} alt="" />
           <p>
             ACME Industries Ltd.

@@ -4,7 +4,7 @@ import NavigationBar from "../pages/Home/Shared/NavigationBar/NavigationBar";
 
 const Main = () => {
   return (
-    <div className="mx-auto max-w-7xl">
+    <div>
       <NavigationBar></NavigationBar>
       <Outlet></Outlet>
       <Footer></Footer>

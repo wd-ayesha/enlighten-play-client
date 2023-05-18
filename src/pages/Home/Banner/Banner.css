@@ -1,0 +1,5 @@
+.heroBg{
+    background-image: url(./../../../assets/images/banner.jpg);
+    background-size: cover;
+   background-attachment: fixed;
+}
