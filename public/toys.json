@@ -1,0 +1,242 @@
+[
+    {
+        "toyName": "Microscope Kit",
+        "picture": "microscope_kit.jpg",
+        "price": "$39.99",
+        "rating": 4.5,
+        "category": "Toys & Games",
+        "subCategory": "Science Kits",
+        "description": "Discover the microscopic world with this comprehensive microscope kit. Learn about cells, microorganisms, and more.",
+        "availableQuantity": 10
+      },
+      {
+        "toyName": "Math Puzzle Set",
+        "picture": "math_puzzle_set.jpg",
+        "price": "$19.99",
+        "rating": 4.4,
+        "category": "Toys & Games",
+        "subCategory": "Math Learning Toys",
+        "description": "Challenge your problem-solving skills with this math puzzle set. Enhances logical thinking and mathematical reasoning.",
+        "availableQuantity": 15
+      },
+      {
+        "toyName": "Robot Building Kit",
+        "picture": "robot_building_kit.jpg",
+        "price": "$49.99",
+        "rating": 4.7,
+        "category": "Toys & Games",
+        "subCategory": "Engineering Kits",
+        "description": "Build and program your own robots with this comprehensive robotics construction set. Learn engineering concepts while having fun.",
+        "availableQuantity": 6
+      },
+      {
+        "toyName": "Interactive Language Tablet",
+        "picture": "language_tablet.jpg",
+        "price": "$49.99",
+        "rating": 4.4,
+        "category": "Toys & Games",
+        "subCategory": "Language Toys",
+        "description": "An interactive tablet that teaches languages through engaging activities. Ideal for children interested in learning new languages.",
+        "availableQuantity": 18
+      },
+      {
+        "toyName": "Toolbox Set",
+        "picture": "toolbox_set.jpg",
+        "price": "$29.99",
+        "rating": 4.2,
+        "category": "Tools & Equipment",
+        "subCategory": "Engineering Tools",
+        "description": "Complete set of essential tools for young engineers. Includes wrench, screwdrivers, pliers, and more.",
+        "availableQuantity": 10
+      },
+      {
+        "toyName": "Chemistry Lab Set",
+        "picture": "chemistry_lab_set.jpg",
+        "price": "$34.99",
+        "rating": 4.3,
+        "category": "Toys & Games",
+        "subCategory": "Science Kits",
+        "description": "Perform exciting chemistry experiments with this lab set. Learn about chemical reactions and properties.",
+        "availableQuantity": 7
+      },
+      {
+        "toyName": "Counting Abacus",
+        "picture": "counting_abacus.jpg",
+        "price": "$14.99",
+        "rating": 4.1,
+        "category": "Toys & Games",
+        "subCategory": "Math Learning Toys",
+        "description": "Enhance counting and arithmetic skills with this colorful abacus. Perfect for young learners.",
+        "availableQuantity": 25
+      },
+      {
+        "toyName": "Bilingual Word Match",
+        "picture": "bilingual_word_match.jpg",
+        "price": "$24.99",
+        "rating": 4.3,
+        "category": "Toys & Games",
+        "subCategory": "Language Toys",
+        "description": "Develop bilingual language skills with this word matching game. Match words in different languages for a fun and educational experience.",
+        "availableQuantity": 12
+      },
+      {
+        "toyName": "Space Exploration Kit",
+        "picture": "space_exploration_kit.jpg",
+        "price": "$49.99",
+        "rating": 4.7,
+        "category": "Toys & Games",
+        "subCategory": "Science Kits",
+        "description": "Embark on an interstellar journey with this space exploration kit. Learn about planets, stars, and the wonders of the universe.",
+        "availableQuantity": 9
+      },
+      {
+        "toyName": "Geometric Shape Puzzle",
+        "picture": "geometric_shape_puzzle.jpg",
+        "price": "$19.99",
+        "rating": 4.5,
+        "category": "Toys & Games",
+        "subCategory": "Math Learning Toys",
+        "description": "Discover geometric shapes while solving puzzles. Enhances spatial awareness and geometric reasoning skills.",
+        "availableQuantity": 14
+      },
+      {
+        "toyName": "Electronic Circuit Kit",
+        "picture": "electronic_circuit_kit.jpg",
+        "price": "$39.99",
+        "rating": 4.6,
+        "category": "Tools & Equipment",
+        "subCategory": "Engineering Tools",
+        "description": "Learn about electronics and circuits with this comprehensive electronic circuit kit. Build and experiment with various circuit configurations.",
+        "availableQuantity": 8
+      },
+      {
+        "toyName": "Alphabet Puzzle",
+        "picture": "alphabet_puzzle.jpg",
+        "price": "$9.99",
+        "rating": 4.2,
+        "category": "Toys & Games",
+        "subCategory": "Language Toys",
+        "description": "Teach letter recognition and alphabet sequencing with this colorful alphabet puzzle. Ideal for early language development.",
+        "availableQuantity": 20
+      },
+      {
+        "toyName": "Dinosaur Fossil Excavation Kit",
+        "picture": "dinosaur_fossil_kit.jpg",
+        "price": "$19.99",
+        "rating": 4.3,
+        "category": "Toys & Games",
+        "subCategory": "Science Kits",
+        "description": "Uncover dinosaur fossils with this excavation kit. Learn about paleontology and the prehistoric world.",
+        "availableQuantity": 11
+      },
+      {
+        "toyName": "Math Balance Scale",
+        "picture": "math_balance_scale.jpg",
+        "price": "$12.99",
+        "rating": 4.0,
+        "category": "Toys & Games",
+        "subCategory": "Math Learning Toys",
+        "description": "Explore the concept of balance and equations with this math balance scale. Learn about equality and mathematical operations.",
+        "availableQuantity": 16
+      },
+      {
+        "toyName": "Solar Power Kit",
+        "picture": "solar_power_kit.jpg",
+        "price": "$29.99",
+        "rating": 4.5,
+        "category": "Toys & Games",
+        "subCategory": "Engineering Kits",
+        "description": "Build and experiment with solar-powered models using this solar power kit. Learn about renewable energy and harnessing the power of the sun.",
+        "availableQuantity": 10
+      },
+      {
+        "toyName": "Spelling Bee Game",
+        "picture": "spelling_bee_game.jpg",
+        "price": "$16.99",
+        "rating": 4.1,
+        "category": "Toys & Games",
+        "subCategory": "Language Toys",
+        "description": "Test your spelling skills with this interactive spelling bee game. Fun and educational for improving vocabulary and spelling accuracy.",
+        "availableQuantity": 22
+      },
+      {
+        "toyName": "Weather Science Kit",
+        "picture": "weather_science_kit.jpg",
+        "price": "$24.99",
+        "rating": 4.6,
+        "category": "Toys & Games",
+        "subCategory": "Science Kits",
+        "description": "Explore meteorology and learn about weather phenomena with this weather science kit. Conduct experiments and make weather observations.",
+        "availableQuantity": 13
+      },    
+      {
+        "toyName": "Fraction Tiles",
+        "picture": "fraction_tiles.jpg",
+        "price": "$11.99",
+        "rating": 4.3,
+        "category": "Toys & Games",
+        "subCategory": "Math Learning Toys",
+        "description": "Visualize and understand fractions with this set of fraction tiles. Great for learning fraction concepts and operations.",
+        "availableQuantity": 18
+      },               
+      {
+        "toyName": "Woodworking Tool Set",
+        "picture": "woodworking_tool_set.jpg",
+        "price": "$32.99",
+        "rating": 4.4,
+        "category": "Tools & Equipment",
+        "subCategory": "Engineering Tools",
+        "description": "Start your woodworking projects with this essential woodworking tool set. Includes saw, hammer, chisel, and more.",
+        "availableQuantity": 9
+      },
+      {
+        "toyName": "Magnetic Alphabet Letters",
+        "picture": "magnetic_alphabet_letters.jpg",
+        "price": "$14.99",
+        "rating": 4.2,
+        "category": "Toys & Games",
+        "subCategory": "Language Toys",
+        "description": "Play and learn with these magnetic alphabet letters. Ideal for introducing letter recognition and basic word formation.",
+        "availableQuantity": 15
+      },
+      {
+        "toyName": "Geology Rock Collection",
+        "picture": "geology_rock_collection.jpg",
+        "price": "$19.99",
+        "rating": 4.3,
+        "category": "Toys & Games",
+        "subCategory": "Science Kits",
+        "description": "Explore the fascinating world of rocks and minerals with this geology rock collection. Learn about different rock types and their properties.",
+        "availableQuantity": 11
+      },
+      {
+        "toyName": "Multiplication Flash Cards",
+        "picture": "multiplication_flash_cards.jpg",
+        "price": "$8.99",
+        "rating": 4.1,
+        "category": "Toys & Games",
+        "subCategory": "Math Learning Toys",
+        "description": "Practice multiplication skills with these interactive flashcards. Perfect for improving multiplication fluency and speed.",
+        "availableQuantity": 20
+      },
+      {
+        "toyName": "Mechanical Gears Set",
+        "picture": "mechanical_gears_set.jpg",
+        "price": "$34.99",
+        "rating": 4.5,
+        "category": "Toys & Games",
+        "subCategory": "Engineering Kits",
+        "description": "Explore the mechanics of gears and gear systems with this mechanical gears set. Build and experiment with different gear configurations.",
+        "availableQuantity": 8
+      },
+      {
+        "toyName": "Rhyme and Learn Book",
+        "picture": "rhyme_and_learn_book.jpg",
+        "price": "$12.99",
+        "rating": 4.3,
+        "category": "Toys & Games",
+        "subCategory": "Language Toys",
+        "description": "Enhance phonics skills and vocabulary with this interactive rhyme and learn book. Engaging and educational for early readers.",
+        "availableQuantity": 16
+      }         
+]
