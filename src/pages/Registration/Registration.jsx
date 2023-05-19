@@ -1,8 +1,39 @@
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const Registration = () => {
+  const { createUser } = useContext(AuthContext);
+  const [success, setSuccess] = useState("");
+  const [error, setError] = useState("");
+
   const handleRegistration = (event) => {
     event.preventDefault();
+    const form = event.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const password = form.password.value;
+    const photo = form.photo.value;
+    console.log(name, email, password, photo);
+
+    createUser(email, password)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+        setSuccess("User Registered Successfully!");
+        form.reset();
+        setError("");
+      })
+      .catch((error) => {
+        console.log(error);
+        if (!email || !password) {
+          setError("Please enter your email and password");
+          return;
+        } else if (password.length < 6) {
+          setError("Password must be at least 6 characters long");
+          return;
+        }
+      });
   };
 
   return (
@@ -13,6 +44,10 @@ const Registration = () => {
             <h1 className="text-4xl text-center mt-4 font-bold">
               Please Register!
             </h1>
+            <div className="text-center">
+              <p className="text-red-500 font-semibold">{error}</p>
+              <p className="text-green-500 font-semibold">{success}</p>
+            </div>
             <form onSubmit={handleRegistration}>
               <div className="form-control">
                 <label className="label">
@@ -52,7 +87,7 @@ const Registration = () => {
                   <span className="label-text">Photo URL</span>
                 </label>
                 <input
-                  type="email"
+                  type="text"
                   name="photo"
                   placeholder="photo url"
                   className="input input-bordered"
@@ -62,7 +97,7 @@ const Registration = () => {
                 <input
                   className="btn btn-primary"
                   type="submit"
-                  value="Login"
+                  value="Register"
                 />
               </div>
             </form>

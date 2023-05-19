@@ -5,7 +5,8 @@ import AllToys from "../pages/AllToys/AllToys";
 import AddToy from "../pages/AddToy/AddToy";
 import MyToys from "../pages/MyToys/MyToys";
 import Registration from "../pages/Registration/Registration";
-import Login from "../pages/Login/Login";
+import Login from "../pages/Login/LOgin";
+
 
 
 const router = createBrowserRouter([
