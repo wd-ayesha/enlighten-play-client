@@ -105,6 +105,7 @@
         "price": "$39.99",
         "rating": 4.6,
         "subCategory_id": 11,
+        "subCategory": "Science Kits",
         "description": "Learn about electronics and circuits with this comprehensive electronic circuit kit. Build and experiment with various circuit configurations.",
         "availableQuantity": 8
       },
@@ -184,6 +185,7 @@
         "price": "$32.99",
         "rating": 4.4,
         "subCategory_id": 19,
+        "subCategory": "Language Toys",
         "description": "Start your woodworking projects with this essential woodworking tool set. Includes saw, hammer, chisel, and more.",
         "availableQuantity": 9
       },

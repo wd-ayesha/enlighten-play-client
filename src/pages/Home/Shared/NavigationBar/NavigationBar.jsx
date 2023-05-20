@@ -24,7 +24,7 @@ const NavigationBar = () => {
       </li>
 
       <li>
-        <Link to="/blog">Blogs</Link>
+        <Link to="/blogs">Blogs</Link>
       </li>
       {user?.email ? (
         <>

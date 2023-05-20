@@ -9,20 +9,64 @@ const ShopByCategory = () => {
       </h2>
       <div className="text-center">
         <Tabs>
-          <Tab>Educational and Learning Toys</Tab>
           <TabList>
             <Tab>Science Kits</Tab>
             <Tab>Language Toys</Tab>
             <Tab>Math Learning Toys</Tab>
           </TabList>
           <TabPanel>
-            <h2>Any content 1</h2>
+            <div className="card w-96 bg-base-100 shadow-xl">
+              <figure className="px-10 pt-10">
+                <img
+                  src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Shoes"
+                  className="rounded-xl"
+                />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
           </TabPanel>
           <TabPanel>
-            <h2>Any content 2</h2>
+            <div className="card w-96 bg-base-100 shadow-xl">
+              <figure className="px-10 pt-10">
+                <img
+                  src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Shoes"
+                  className="rounded-xl"
+                />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
           </TabPanel>
           <TabPanel>
-            <h2>Any content 3</h2>
+            <div className="card w-96 bg-base-100 shadow-xl">
+              <figure className="px-10 pt-10">
+                <img
+                  src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Shoes"
+                  className="rounded-xl"
+                />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
           </TabPanel>
         </Tabs>
       </div>
