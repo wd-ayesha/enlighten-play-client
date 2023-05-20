@@ -1,8 +1,36 @@
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from './../../providers/AuthProvider';
 
 const Login = () => {
+  const { signIn } = useContext(AuthContext)
+  const[success, setSuccess] = useState("");
+  const[error, setError] = useState("");
+
   const handleLogin = (event) => {
     event.preventDefault();
+    const form = event.target;
+    const email = form.email.value;
+    const password = form.password.value;
+    console.log(email, password);
+
+    signIn(email, password)
+      .then((result) => {
+        const signedInUser = result.user;
+        console.log(signedInUser);
+
+        setSuccess("User LoggedIn Successfully!");
+        form.reset();
+        setError('');
+        // navigate(from, { replace: true });
+      })
+      .catch((error) => {
+        console.log(error.message);
+        if (email !== password) {
+          setError('Invalid email or password');
+          return;
+        }
+      });
   };
 
   return (
@@ -13,6 +41,10 @@ const Login = () => {
             <h1 className="text-4xl text-center mt-4 font-bold">
               Please Login!
             </h1>
+            <div className="text-center">
+              <p className="text-red-500 font-semibold">{error}</p>
+              <p className="text-green-500 font-semibold">{success}</p>
+            </div>
             <form onSubmit={handleLogin}>
               <div className="form-control">
                 <label className="label">
@@ -35,11 +67,6 @@ const Login = () => {
                   placeholder="password"
                   className="input input-bordered"
                 />
-                <label className="label">
-                  <a href="#" className="label-text-alt link link-hover">
-                    Forgot password?
-                  </a>
-                </label>
               </div>
               <div className="form-control mt-6">
                 <input
