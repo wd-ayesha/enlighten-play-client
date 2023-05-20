@@ -22,21 +22,22 @@ const NavigationBar = () => {
       <li>
         <Link to="/allToys">All Toys</Link>
       </li>
-      <li>
-        <Link to="/myToys">My Toys</Link>
-      </li>
-      <li>
-        <Link to="/addToy">Add A Toy</Link>
-      </li>
+
       <li>
         <Link to="/blog">Blogs</Link>
       </li>
       {user?.email ? (
         <>
+          <li>
+            <Link to="/addToy">Add A Toy</Link>
+          </li>
+          <li>
+            <Link to="/myToys">My Toys</Link>
+          </li>
           <Link>
             <div className="avatar">
               <div className="w-14 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                <img src={user?.photoURL} title={user?.displayName} />
+                <img src={user?.photoURL} title={user?.displayName} alt="" />
               </div>
             </div>
           </Link>

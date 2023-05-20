@@ -1,9 +1,10 @@
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from './../../providers/AuthProvider';
+import { FaGoogle } from 'react-icons/fa';
 
 const Login = () => {
-  const { signIn } = useContext(AuthContext)
+  const { signIn, googleLogIn } = useContext(AuthContext)
   const[success, setSuccess] = useState("");
   const[error, setError] = useState("");
 
@@ -31,6 +32,13 @@ const Login = () => {
           return;
         }
       });
+  };
+  const handleGoogleLogIn = () => {
+    googleLogIn()
+    .then(result => {
+        console.log(result.user);
+    })
+    .catch(error =>  console.log(error));
   };
 
   return (
@@ -82,6 +90,10 @@ const Login = () => {
                 Register
               </Link>
             </p>
+            <div className="text-center">
+            <div className="divider">OR</div>
+            <button onClick={handleGoogleLogIn} className="btn btn-outline"><FaGoogle className="mr-2" /> Login with Google</button>
+            </div>
           </div>
         </div>
       </div>
