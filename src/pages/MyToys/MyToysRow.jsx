@@ -1,7 +1,8 @@
 
 
-const MyToysRow = ({ myToy }) => {
-    const {photo, toyName, subCategory, price, rating, quantity, description } = myToy;
+const MyToysRow = ({ myToy, handleDelete }) => {
+    const { _id, photo, toyName, subCategory, price, rating, quantity, description } = myToy;
+
 
     return (
       <tr>
@@ -27,7 +28,7 @@ const MyToysRow = ({ myToy }) => {
         <button className="btn btn-ghost btn-xs">Update</button>
       </th>
       <th>
-        <button className="btn btn-ghost btn-xs">DElete</button>
+        <button onClick={() => handleDelete(_id)} className="btn btn-ghost btn-xs">DElete</button>
       </th>
     </tr>
     );
