@@ -4,7 +4,6 @@
         "picture": "https://i.ibb.co/c8js2yB/toy13.jpg",
         "price": "$39.99",
         "rating": 4.5,
-        "subCategory_id": 1,
         "subCategory": "Science Kits",
         "description": "Discover the microscopic world with this comprehensive microscope kit. Learn about cells, microorganisms, and more.",
         "availableQuantity": 10
@@ -14,7 +13,6 @@
         "picture": "https://i.ibb.co/hDsF8Q6/toy27.jpg",
         "price": "$19.99",
         "rating": 4.4,
-        "subCategory_id": 2, 
         "subCategory": "Math Learning Toys",
         "description": "Challenge your problem-solving skills with this math puzzle set. Enhances logical thinking and mathematical reasoning.",
         "availableQuantity": 15
@@ -24,7 +22,6 @@
         "picture": "https://i.ibb.co/g6SFHKt/toy4.jpg",
         "price": "$49.99",
         "rating": 4.7,
-        "subCategory_id": 3,
         "subCategory": "Engineering Kits",
         "description": "Build and program your own robots with this comprehensive robotics construction set. Learn engineering concepts while having fun.",
         "availableQuantity": 6
@@ -34,7 +31,6 @@
         "picture": "https://i.ibb.co/THnrDzT/toy24.jpg",
         "price": "$49.99",
         "rating": 4.4,
-        "subCategory_id": 4,
         "subCategory": "Language Toys",
         "description": "An interactive tablet that teaches languages through engaging activities. Ideal for children interested in learning new languages.",
         "availableQuantity": 18
@@ -44,7 +40,6 @@
         "picture": "https://i.ibb.co/MS8rhvb/toy21.png",
         "price": "$29.99",
         "rating": 4.2,
-        "subCategory_id": 5,
         "subCategory": "Science Kits",
         "description": "Complete set of essential tools for young engineers. Includes wrench, screwdrivers, pliers, and more.",
         "availableQuantity": 10
@@ -54,7 +49,6 @@
         "picture": "https://i.ibb.co/zFMS62m/toy17.jpg",
         "price": "$34.99",
         "rating": 4.3,
-        "subCategory_id": 6,
         "subCategory": "Science Kits",
         "description": "Perform exciting chemistry experiments with this lab set. Learn about chemical reactions and properties.",
         "availableQuantity": 7
@@ -64,7 +58,6 @@
         "picture": "https://i.ibb.co/MgxPCNq/toy12.jpg",
         "price": "$14.99",
         "rating": 4.1,
-        "subCategory_id": 7,
         "subCategory": "Math Learning Toys",
         "description": "Enhance counting and arithmetic skills with this colorful abacus. Perfect for young learners.",
         "availableQuantity": 25
@@ -74,7 +67,6 @@
         "picture": "https://i.ibb.co/C818Xrf/toy7.jpg",
         "price": "$24.99",
         "rating": 4.3,
-        "subCategory_id": 8,
         "subCategory": "Language Toys",
         "description": "Develop bilingual language skills with this word matching game. Match words in different languages for a fun and educational experience.",
         "availableQuantity": 12
@@ -84,7 +76,6 @@
         "picture": "https://i.ibb.co/1QRT1rv/toy3.jpg",
         "price": "$49.99",
         "rating": 4.7,
-        "subCategory_id": 9,
         "subCategory": "Science Kits",
         "description": "Embark on an interstellar journey with this space exploration kit. Learn about planets, stars, and the wonders of the universe.",
         "availableQuantity": 9
@@ -94,7 +85,6 @@
         "picture": "https://i.ibb.co/SVVmwZV/toy6.jpg",
         "price": "$19.99",
         "rating": 4.5,
-        "subCategory_id": 10,
         "subCategory": "Math Learning Toys",
         "description": "Discover geometric shapes while solving puzzles. Enhances spatial awareness and geometric reasoning skills.",
         "availableQuantity": 14
@@ -104,7 +94,6 @@
         "picture": "https://i.ibb.co/Bn91sNb/toy22.jpg",
         "price": "$39.99",
         "rating": 4.6,
-        "subCategory_id": 11,
         "subCategory": "Science Kits",
         "description": "Learn about electronics and circuits with this comprehensive electronic circuit kit. Build and experiment with various circuit configurations.",
         "availableQuantity": 8
@@ -114,7 +103,6 @@
         "picture": "https://i.ibb.co/vZ71MG5/toy30.jpg",
         "price": "$9.99",
         "rating": 4.2,
-        "subCategory_id": 12,
         "subCategory": "Language Toys",
         "description": "Teach letter recognition and alphabet sequencing with this colorful alphabet puzzle. Ideal for early language development.",
         "availableQuantity": 20
@@ -124,7 +112,6 @@
         "picture": "https://i.ibb.co/RPP1QRg/toy8.jpg",
         "price": "$19.99",
         "rating": 4.3,
-        "subCategory_id": 13,
         "subCategory": "Science Kits",
         "description": "Uncover dinosaur fossils with this excavation kit. Learn about paleontology and the prehistoric world.",
         "availableQuantity": 11
@@ -134,7 +121,6 @@
         "picture": "https://i.ibb.co/rskgtct/toy23.jpg",
         "price": "$12.99",
         "rating": 4.0,
-        "subCategory_id": 14,
         "subCategory": "Math Learning Toys",
         "description": "Explore the concept of balance and equations with this math balance scale. Learn about equality and mathematical operations.",
         "availableQuantity": 16
@@ -144,7 +130,6 @@
         "picture": "https://i.ibb.co/6vk07dp/toy32.jpg",
         "price": "$29.99",
         "rating": 4.5,
-        "subCategory_id": 15,
         "subCategory": "Engineering Kits",
         "description": "Build and experiment with solar-powered models using this solar power kit. Learn about renewable energy and harnessing the power of the sun.",
         "availableQuantity": 10
@@ -154,7 +139,6 @@
         "picture": "https://i.ibb.co/t3YxBR2/toy2.jpg",
         "price": "$16.99",
         "rating": 4.1,
-        "subCategory_id": 16,
         "subCategory": "Language Toys",
         "description": "Test your spelling skills with this interactive spelling bee game. Fun and educational for improving vocabulary and spelling accuracy.",
         "availableQuantity": 22
@@ -164,7 +148,6 @@
         "picture": "https://i.ibb.co/Wf8dzn3/toy16.jpg",
         "price": "$24.99",
         "rating": 4.6,
-        "subCategory_id": 17,
         "subCategory": "Science Kits",
         "description": "Explore meteorology and learn about weather phenomena with this weather science kit. Conduct experiments and make weather observations.",
         "availableQuantity": 13
@@ -174,7 +157,6 @@
         "picture": "https://i.ibb.co/kMh25Fp/toy19.jpg",
         "price": "$11.99",
         "rating": 4.3,
-        "subCategory_id": 18,
         "subCategory": "Math Learning Toys",
         "description": "Visualize and understand fractions with this set of fraction tiles. Great for learning fraction concepts and operations.",
         "availableQuantity": 18
@@ -184,7 +166,6 @@
         "picture": "https://i.ibb.co/svcp9Yr/toy9.jpg",
         "price": "$32.99",
         "rating": 4.4,
-        "subCategory_id": 19,
         "subCategory": "Language Toys",
         "description": "Start your woodworking projects with this essential woodworking tool set. Includes saw, hammer, chisel, and more.",
         "availableQuantity": 9
@@ -194,7 +175,6 @@
         "picture": "https://i.ibb.co/CsQcY8X/toy25.jpg",
         "price": "$14.99",
         "rating": 4.2,
-        "subCategory_id": 20,
         "subCategory": "Language Toys",
         "description": "Play and learn with these magnetic alphabet letters. Ideal for introducing letter recognition and basic word formation.",
         "availableQuantity": 15
@@ -204,7 +184,6 @@
         "picture": "https://i.ibb.co/jySvBM5/toy28.jpg",
         "price": "$19.99",
         "rating": 4.3,
-        "subCategory_id": 21,
         "subCategory": "Science Kits",
         "description": "Explore the fascinating world of rocks and minerals with this geology rock collection. Learn about different rock types and their properties.",
         "availableQuantity": 11
@@ -213,8 +192,7 @@
         "toyName": "Multiplication Flash Cards",
         "picture": "https://i.ibb.co/hDsF8Q6/toy27.jpg",
         "price": "$8.99",
-        "rating": 4.1,
-        "subCategory_id": 22, 
+        "rating": 4.1, 
         "subCategory": "Math Learning Toys",
         "description": "Practice multiplication skills with these interactive flashcards. Perfect for improving multiplication fluency and speed.",
         "availableQuantity": 20
@@ -224,7 +202,6 @@
         "picture": "https://i.ibb.co/gTK4x7k/toy15.jpg",
         "price": "$34.99",
         "rating": 4.5,
-        "subCategory_id": 23,
         "subCategory": "Engineering Kits",
         "description": "Explore the mechanics of gears and gear systems with this mechanical gears set. Build and experiment with different gear configurations.",
         "availableQuantity": 8
@@ -234,7 +211,6 @@
         "picture": "https://i.ibb.co/CmxF0Ls/toy20.jpg",
         "price": "$12.99",
         "rating": 4.3,
-        "subCategory_id": 24,
         "subCategory": "Language Toys",
         "description": "Enhance phonics skills and vocabulary with this interactive rhyme and learn book. Engaging and educational for early readers.",
         "availableQuantity": 16

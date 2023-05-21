@@ -33,7 +33,7 @@ const AddToy = () => {
       <form className="pl-40 py-10" onSubmit={handleSubmit(onSubmit)}>
         {/* register your input into the hook by invoking the "register" function */}
         <input className="input input-bordered w-full max-w-xs m-3" placeholder="Picture URL of the toy" {...register("photo")} /> 
-        <input className="input input-bordered w-full max-w-xs" placeholder="Name" {...register("name")} /><br />
+        <input className="input input-bordered w-full max-w-xs" placeholder="Name" {...register("toyName")} /><br />
         <input className="input input-bordered w-full max-w-xs m-3" value={user?.displayName} {...register("name")} />
 
         {/* include validation with required or other standard HTML validation rules */}
