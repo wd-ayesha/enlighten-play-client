@@ -4,7 +4,6 @@ import Swal from "sweetalert2";
 import { useParams } from "react-router-dom";
 
 
-
 const UpdateToy = () => {
   const [toy, setToy] = useState({});
   const { id } = useParams();
@@ -20,7 +19,7 @@ const UpdateToy = () => {
     fetch(`http://localhost:5000/singleSelectedToy/${id}`)
       .then((res) => res.json())
       .then((data) => setToy(data));
-  }, []);
+  }, [id]);
 
   const onSubmit = (data) => {
     fetch(`http://localhost:5000/allSelectedToys/${id}`, {

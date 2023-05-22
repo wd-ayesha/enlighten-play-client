@@ -8,8 +8,8 @@ import Registration from "../pages/Registration/Registration";
 import Login from "../pages/Login/Login";
 import Blogs from "../pages/Blogs/Blogs";
 import PrivateRoute from "./PrivateRoute";
-import ViewDetails from "../pages/ViewDetails/ViewDetails";
 import UpdateToy from "../pages/UpdateToy/UpdateToy";
+import ToyDetails from "../pages/ToyDetails/ToyDetails";
 
 
 const router = createBrowserRouter([
@@ -53,10 +53,10 @@ const router = createBrowserRouter([
           element: <Registration></Registration>
         },
         {
-          path: ":id",
+          path: "/toyDetail/:id",
           element: (
           <PrivateRoute>
-           <ViewDetails></ViewDetails>
+           <ToyDetails></ToyDetails>
           </PrivateRoute>
           )
         },

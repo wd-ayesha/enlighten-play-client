@@ -1,10 +1,3 @@
-import img1 from "../../../assets/images/1.jpg";
-import img2 from "../../../assets/images/2.jpg";
-import img3 from "../../../assets/images/3.jpg";
-import img4 from "../../../assets/images/4.jpg";
-import img5 from "../../../assets/images/5.jpg";
-import img6 from "../../../assets/images/6.jpg";
-import img7 from "../../../assets/images/7.jpg";
 
 
 const Gallery = () => {
@@ -12,14 +5,14 @@ const Gallery = () => {
     <div className="my-20">
       <h2 className="text-center text-purple-950 text-4xl mb-14">Gallery</h2>
       <div className="grid grid-cols-3 md:grid-cols-8 gap-2">
-        <img className="w-40 h-44 rounded-lg border-2" src={img1} alt="" />
-        <img className="w-40 h-44 rounded-lg border-2" src={img2} alt="" />
-        <img className="w-40 h-44 rounded-lg border-2" src={img3} alt="" />
-        <img className="w-40 h-44 rounded-lg border-2" src={img4} alt="" />
-        <img className="w-40 h-44 rounded-lg border-2" src={img5} alt="" />
-        <img className="w-40 h-44 rounded-lg border-2" src={img6} alt="" />
-        <img className="w-40 h-44 rounded-lg border-2" src={img7} alt="" />
-        <img className="w-40 h-44 rounded-lg border-2" src={img5} alt="" />
+        <img className="w-40 h-44 rounded-lg border-2" src="https://i.ibb.co/Q8kNXTQ/1.jpg" alt="" />
+        <img className="w-40 h-44 rounded-lg border-2" src="https://i.ibb.co/T2B6Gd6/2.jpg" alt="" />
+        <img className="w-40 h-44 rounded-lg border-2" src="https://i.ibb.co/ftMcjR8/3.jpg" alt="" />
+        <img className="w-40 h-44 rounded-lg border-2" src="https://i.ibb.co/k2RtZb4/4.jpg" alt="" />
+        <img className="w-40 h-44 rounded-lg border-2" src="https://i.ibb.co/CmwTmVD/5.jpg" alt="" />
+        <img className="w-40 h-44 rounded-lg border-2" src="https://i.ibb.co/8YmRn7n/6.jpg" alt="" />
+        <img className="w-40 h-44 rounded-lg border-2" src="https://i.ibb.co/C6zPVDz/7.jpg" alt="" />
+        <img className="w-40 h-44 rounded-lg border-2" src="https://i.ibb.co/vcGQvFG/8.jpg" alt="" />
       </div>
     </div>
   );

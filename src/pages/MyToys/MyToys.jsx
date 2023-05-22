@@ -59,10 +59,10 @@ const MyToys = () => {
             <th>Subcategory</th>
             <th>price</th>
             <th>Quantity</th>
-            {/* <th>Ratings</th> */}
+            <th>Ratings</th>
             <th></th>
             <th></th>
-            <th></th>
+            <th>detail description</th>
           </tr>
         </thead>
         <tbody>

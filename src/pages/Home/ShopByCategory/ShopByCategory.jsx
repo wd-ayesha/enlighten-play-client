@@ -30,7 +30,7 @@ const ShopByCategory = () => {
           </TabList>
           <TabPanel>
             <Tab>
-              <div className="flex">
+            <div className="flex">
                 <div className="card w-96 mr-20 bg-base-100 shadow-xl">
                   <figure className="px-10 pt-10">
                     <img
@@ -185,11 +185,12 @@ const ShopByCategory = () => {
         </Tabs>
       </div>
 
-      {/*       {
+   {/*   {
            subToys && subToys?.map((subToy)=>(
                 <SubToy key={subToy._id} subToy={subToy}></SubToy>
               ))
-          } */}
+          }  */}
+
       {/* <div className="text-center">
         <Tabs>
           <TabList>
