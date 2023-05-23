@@ -23,6 +23,7 @@ const Registration = () => {
         setSuccess("User Registered Successfully!");
         form.reset();
         setError("");
+        // updateUserProfile(user, name, photo)
       })
       .catch((error) => {
         console.log(error);
