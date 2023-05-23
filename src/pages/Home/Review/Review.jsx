@@ -1,7 +1,7 @@
 const Review = () => {
   return (
     <>
-      <h2 className="text-center text-purple-950 text-4xl mb-20">
+      <h2 className="text-center text-purple-950 text-4xl my-20">
         What Our Clients Says
       </h2>
     

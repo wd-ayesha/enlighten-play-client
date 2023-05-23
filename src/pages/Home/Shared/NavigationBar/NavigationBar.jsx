@@ -14,6 +14,7 @@ const NavigationBar = () => {
         console.log(error);
       });
   };
+
   const navItems = (
     <>
       <li>
