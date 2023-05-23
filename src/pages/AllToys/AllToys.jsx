@@ -6,7 +6,7 @@ const AllToys = () => {
   const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:5000/allToys")
+    fetch("https://enlighten-play-server.vercel.app/allToys")
       .then((res) => res.json())
       .then((data) => {
         setToys(data);
@@ -14,7 +14,7 @@ const AllToys = () => {
   }, []);
 
   const handleSearch = () => {
-    fetch(`http://localhost:5000/toySearchByName/${searchText}`)
+    fetch(`https://enlighten-play-server.vercel.app/toySearchByName/${searchText}`)
       .then((res) => res.json())
       .then((data) => {
         setToys(data);

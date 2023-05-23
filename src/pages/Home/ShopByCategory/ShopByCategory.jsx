@@ -8,7 +8,7 @@ const ShopByCategory = () => {
   const [subToys, setSubToys] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:5000/insertedToys")
+    fetch("https://enlighten-play-server.vercel.app/insertedToys")
       .then((res) => res.json())
       .then((data) => {
         setSubToys(data);

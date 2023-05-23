@@ -16,13 +16,13 @@ const UpdateToy = () => {
   } = useForm();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/singleSelectedToy/${id}`)
+    fetch(`https://enlighten-play-server.vercel.app/singleSelectedToy/${id}`)
       .then((res) => res.json())
       .then((data) => setToy(data));
   }, [id]);
 
   const onSubmit = (data) => {
-    fetch(`http://localhost:5000/allSelectedToys/${id}`, {
+    fetch(`https://enlighten-play-server.vercel.app/allSelectedToys/${id}`, {
       method: "PUT",
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify(data),

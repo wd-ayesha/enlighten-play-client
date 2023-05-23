@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         {
           path: "updateToy/:id",
           element: <UpdateToy></UpdateToy>,
-          loader: ({params}) => fetch(`http://localhost:5000/allSelectedToys/${params.id}`)
+          loader: ({params}) => fetch(`https://enlighten-play-server.vercel.app/allSelectedToys/${params.id}`)
         },
         {
           path: "/addToy",
@@ -61,7 +61,7 @@ const router = createBrowserRouter([
            <ToyDetails></ToyDetails>
           </PrivateRoute>
           ),
-          loader: ({params}) => fetch(`http://localhost:5000/allToys/${params.id}`)
+          loader: ({params}) => fetch(`https://enlighten-play-server.vercel.app/allToys/${params.id}`)
         },
       ]
     },

@@ -13,7 +13,7 @@ const AddToy = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    fetch("http://localhost:5000/postToy", {
+    fetch("https://enlighten-play-server.vercel.app/postToy", {
       method: "POST",
       headers: {
         'content-type': 'application/json'

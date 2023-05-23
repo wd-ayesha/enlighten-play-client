@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import { useParams } from "react-router-dom";
@@ -10,7 +9,7 @@ const ToyDetails = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/allToys/${id}`)
+    fetch(`https://enlighten-play-server.vercel.app/allToys/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setDetail(data);
