@@ -18,7 +18,7 @@ const ShopByCategory = () => {
   return (
     <div className="my-20">
       <h2 className="text-center text-purple-950 text-4xl mb-14">
-        Shop by Category: {subToys.length}
+        Shop by Category
       </h2>
 
       <div className="text-center">
@@ -45,7 +45,7 @@ const ShopByCategory = () => {
                     <p>{subToys[0]?.price}</p>
                     <p>{subToys[0]?.availableQuantity}</p>
                     <div className="card-actions">
-                    <Link to={`/${subToys?._id}`}>
+                    <Link>
                         <button className="btn btn-outline-danger">
                         View Details
                         </button>
@@ -68,7 +68,7 @@ const ShopByCategory = () => {
                     <p>{subToys[4]?.price}</p>
                     <p>{subToys[4]?.availableQuantity}</p>
                     <div className="card-actions">
-                    <Link to={`/${subToys?._id}`}>
+                    <Link>
                         <button className="btn btn-outline-danger">
                         View Details
                         </button>
@@ -96,7 +96,7 @@ const ShopByCategory = () => {
                     <p>{subToys[3]?.price}</p>
                     <p>{subToys[3]?.availableQuantity}</p>
                     <div className="card-actions">
-                    <Link to={`/${subToys?._id}`}>
+                    <Link>
                         <button className="btn btn-outline-danger">
                         View Details
                         </button>
@@ -119,7 +119,7 @@ const ShopByCategory = () => {
                     <p>{subToys[7]?.price}</p>
                     <p>{subToys[7]?.availableQuantity}</p>
                     <div className="card-actions">
-                    <Link to={`/${subToys?._id}`}>
+                    <Link>
                         <button className="btn btn-outline-danger">
                         View Details
                         </button>
@@ -148,7 +148,7 @@ const ShopByCategory = () => {
                     <p>{subToys[1]?.availableQuantity}</p>
                     <div className="card-actions">
                      
-                      <Link to={`/${subToys?._id}`}>
+                      <Link>
                         <button className="btn btn-outline-danger">
                         View Details
                         </button>
@@ -171,7 +171,7 @@ const ShopByCategory = () => {
                     <p>{subToys[6]?.price}</p>
                     <p>{subToys[6]?.availableQuantity}</p>
                     <div className="card-actions">
-                    <Link to={`/${subToys?._id}`}>
+                    <Link>
                         <button className="btn btn-outline-danger">
                         View Details
                         </button>
@@ -184,44 +184,6 @@ const ShopByCategory = () => {
           </TabPanel>
         </Tabs>
       </div>
-
-   {/*   {
-           subToys && subToys?.map((subToy)=>(
-                <SubToy key={subToy._id} subToy={subToy}></SubToy>
-              ))
-          }  */}
-
-      {/* <div className="text-center">
-        <Tabs>
-          <TabList>
-            <Tab>Science Kits</Tab>
-            <Tab>Language Toys</Tab>
-            <Tab>Math Learning Toys</Tab>
-          </TabList>
-          <TabPanel>
-          {
-           subToys && (subToys || [])?.map((subToy, index)=>(
-                <SubToy key={index} subToy={subToy}>{subToy}</SubToy>
-              ))
-          }
-      
-          </TabPanel>
-          <TabPanel>
-          {
-           subToys && (subToys || [])?.map((subToy, index)=>(
-                <SubToy key={index} subToy={subToy}>{subToy}</SubToy>
-              ))
-          }
-          </TabPanel>
-          <TabPanel>
-          {
-           subToys && (subToys || [])?.map((subToy, index)=>(
-                <SubToy key={index} subToy={subToy}>{subToy}</SubToy>
-              ))
-          }
-          </TabPanel>
-        </Tabs>
-      </div> */}
     </div>
   );
 };
