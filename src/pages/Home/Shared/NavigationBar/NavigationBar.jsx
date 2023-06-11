@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from "../../../../assets/images/logo.png";
 import { useContext } from "react";
 import { AuthContext } from "../../../../providers/AuthProvider";
 
@@ -35,13 +34,11 @@ const NavigationBar = () => {
           <li>
             <Link to="/myToys">My Toys</Link>
           </li>
-          <Link>
             <div className="avatar">
               <div className="w-14 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                 <img src={user?.photoURL} title={user?.displayName} alt="" />
               </div>
             </div>
-          </Link>
           <li>
             <Link onClick={handleLogOut} to="/login">
               LogOut
@@ -88,7 +85,7 @@ const NavigationBar = () => {
             </ul>
           </div>
           <div>
-            <img className="w-20" src={logo} alt="" />
+            <img className="w-20" src="https://i.ibb.co/nfYQW5s/logo.png" alt="" />
             <h2 className="font-bold font-serif text-xl">EnlightenPlay</h2>
           </div>
         </div>
